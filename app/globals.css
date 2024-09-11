@@ -26,6 +26,8 @@
     --destructive-foreground: 0 0% 100%;
     --ring: 60 30% 96%;
     --radius: 0.5rem;
+    --font-geist-sans: 'GeistSans', sans-serif;
+    --font-geist-mono: 'GeistMono', monospace;
   }
 }
 
