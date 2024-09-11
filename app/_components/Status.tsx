@@ -9,7 +9,7 @@ export const Status = () => {
         <Section className="flex max-md:flex-col items-start gap-4">
             <div className="flex-[3] w-full">
                 <Card className=" p-4 flex flex-col gap-2 w-full">
-                    <p className="text-lg text-muted-foreground">Side, fun projects.</p>
+                    <p className="text-lg text-muted-foreground">Side, fun projects</p>
                     <div className="flex flex-col gap-4">
                         {SIDE_PROJECTS.map((project, index) => (
                             <SideProject
@@ -42,9 +42,9 @@ export const Status = () => {
                 <Card className="p-4 flex-1 flex flex-col gap-2">
                 <p className="text-lg text-muted-foreground">Contact me</p>
 
-                <ContactCard name="leo.cigale@gmail.com" image="https://avatars.githubusercontent.com/u/90071559?v=4" mediumImage="https://www.cleanfox.io/blog/wp-content/uploads/2021/01/GMAIL-1024x772.png" description="Contactez-moi" />
+                <ContactCard name="leo.cigale@gmail.com" image="https://avatars.githubusercontent.com/u/90071559?v=4" mediumImage="https://www.cleanfox.io/blog/wp-content/uploads/2021/01/GMAIL-1024x772.png" description="Contact me on Gmail" />
 
-                <ContactCard name="Léo Gousset" image="https://avatars.githubusercontent.com/u/90071559?v=4" mediumImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrIbiofxGclX20CWBDtpmjOcbbuqEJS6PrSQ&s" description="Contactez-moi" />
+                <ContactCard name="Léo Gousset" image="https://avatars.githubusercontent.com/u/90071559?v=4" mediumImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrIbiofxGclX20CWBDtpmjOcbbuqEJS6PrSQ&s" description="Contact me on Linkedin" />
                 </Card>
             </div>
         </Section>
@@ -79,25 +79,25 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     {
         Logo: CircleHelp,
         title: "Quiz Javascript",
-        description: "Quiz de 10 questions sur Javascript",
+        description: "Quiz of 10 questions on Javascript",
         url: "https://leov0.github.io/Quiz-javascript/"
     },
     {
         Logo: Bitcoin,
-        title: "Cours du Bitcoin",
-        description: "Graphique du bitcoin (du 1er janvier 2020 au 19 mars 2023)",
+        title: "Bitcoin chart",
+        description: "Bitcoin chart (January 1, 2020 to March 19, 2023)",
         url: "https://leov0.github.io/Cour-bitcoin/"
     },
     {
         Logo: BookOpen,
-        title: "Formulaire d'inscription",
-        description: "Formulaire avec contrainte",
+        title: "Registration form",
+        description: "Registration form with constraints",
         url: "https://leov0.github.io/Formulaire-inscription/"
     },
     {
         Logo: TicketsPlane,
-        title: "Découvrez Kyoto",
-        description: "Reproduction d'un site de tourisme",
+        title: "Discover Kyoto",
+        description: "Reproduction of a tourism site",
         url: "https://leov0.github.io/Site-Kyoto/"
     },
 ];
@@ -127,21 +127,21 @@ const WORKS: WorkProps[] = [
     {
         image: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Logo_Afpa.jpg",
         title: "Developpeur web",
-        role: "Etudiant",
+        role: "Student",
         date: "2022 - 2023",
         url: "/"
     },
     {
         image: "https://appert.paysdelaloire.e-lyco.fr/wp-content/uploads/sites/3/2022/12/3.jpg",
-        title: "Bts SNIR",
-        role: "Etudiant",
+        title: "BTS SNIR",
+        role: "Student",
         date: "2021 - 2022",
         url: "/"
     },
     {
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7F3R_CMWyPaizCRBtB-7ZDp819ycSQq1bEw&s",
-        title: "Bac STI2D",
-        role: "Lycéen",
+        title: "BAC STI2D",
+        role: "Student",
         date: "2020 - 2021",
         url: "/"
     },
