@@ -5,8 +5,8 @@ export const TailwindLogo = (props: ComponentPropsWithoutRef<"svg"> & {size?: nu
 <svg width={props.size} height={props.size} viewBox="0 0 256 154" version="1.1"  preserveAspectRatio="xMidYMid" {...props}>
     <defs>
         <linearGradient x1="-2.77777778%" y1="32%" x2="100%" y2="67.5555556%" id="linearGradient-1">
-            <stop stop-color="currentColor" offset="0%"></stop>
-            <stop stop-color="currentColor" offset="100%"></stop>
+            <stop stopColor="currentColor" offset="0%"></stop>
+            <stop stopColor="currentColor" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g>
